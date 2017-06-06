@@ -1,2 +1,4 @@
-*/fixtures/modules/*
-*/fixtures/manifests/*
+spec/fixtures/modules/
+spec/fixtures/manifests/
+vendor/gems/
+.bundle/

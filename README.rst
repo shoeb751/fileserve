@@ -1,3 +1,9 @@
+.. image:: https://travis-ci.org/shoeb751/fileserve.svg?branch=master
+   :target: https://travis-ci.org/shoeb751/fileserve
+
+.. image:: https://coveralls.io/repos/github/shoeb751/fileserve/badge.svg?branch=master
+   :target: https://coveralls.io/github/shoeb751/fileserve?branch=master
+
 About
 =====
 
