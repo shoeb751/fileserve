@@ -1,0 +1,19 @@
+---
+fileserve::dir_defaults:
+  mode: '0755'
+  owner: 'shoeb.c'
+  group: 'shoeb.c'
+
+fileserve::file_defaults:
+  mode: '0644'
+  owner: 'shoeb.c'
+  group: 'shoeb.c'
+
+fileserve::directory_resource:
+  /tmp/work/app: {}
+    
+fileserve::file_resource:
+  /tmp/work/hosts:
+    content: 'Hello World'
+  /tmp/work/hosts_source:
+    source: 'puppet://module/fileserve/host'
