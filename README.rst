@@ -8,7 +8,7 @@ About
 =====
 
 The main purpose of this module is to make sure that we can rely on hieradata
-even for adding standlaone files and directories in Puppet. I am trying to implement the
+even for adding standalone files and directories in Puppet. I am trying to implement the
 functionality that the file resource gives using a modular approach. 
 
 Work has just started on this with only use cases that are commonly used. A lot of
